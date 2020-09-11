@@ -1,11 +1,11 @@
 function myFunction(){
     let my_name = ["L", "O", "R", "E", "D", "A", "N", "A"];
-    var newarray = {};
+    let newarray = {};
     letter_count_list = {};
     /* use map function to return an array of objects that counts all letters eg [{A:2},{L:1}] */
     my_name = my_name.map(mylettres);
     /* from an array of objects, create one object with the counted letters */
-    for (var i = 0; i < my_name.length; i++) {
+    for (let i = 0; i < my_name.length; i++) {
         Object.assign(letter_count_list,my_name[i]);
     } 
    
